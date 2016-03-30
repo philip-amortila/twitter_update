@@ -27,6 +27,7 @@ Replace your Twitter API keys in the following code block in tweetRoutes.js
 ```
 npm start
 ```
+And then point your browser at http://localhost:3000
 
 ## Tech Stack
 - node.js 
@@ -41,3 +42,6 @@ npm start
 ## Demo
 App is deployed on Red Hat Cloud [OpenShift](http://nodejs2-twitsearch.rhcloud.com) 
 
+##To-Do
+Support for mobile
+Responsive web design

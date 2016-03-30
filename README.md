@@ -4,7 +4,7 @@
 Twitter searching web application with some data visualization and sentiment analysis
 
 ## Installation 
-Make sure MongoDB is installed and mongod is running on port 27017
+Make sure MongoDB is installed and mongod is running on port 27017. Then: 
 ```
 git clone git@github.com:philip-amortila/twitter_update.git
 npm install
@@ -44,5 +44,4 @@ App is deployed on Red Hat Cloud [OpenShift](http://nodejs2-twitsearch.rhcloud.c
 
 ##To-Do
 - Support for mobile
-- Responsive web design
-- More stats
+- More data viz 

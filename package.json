@@ -1,0 +1,19 @@
+{
+  "name": "twitter_update",
+  "version": "1.0.0",
+  "description": "twitter search",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.11",
+    "twitter": "^1.2.5"
+  }
+}

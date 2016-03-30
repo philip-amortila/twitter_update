@@ -38,4 +38,6 @@ npm start
 - bootstrap
 - materialize
 
-## OpenShift 
+## Demo
+App is deployed on Red Hat Cloud [OpenShift](http://nodejs2-twitsearch.rhcloud.com) 
+

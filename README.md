@@ -43,5 +43,6 @@ And then point your browser at http://localhost:3000 (mongod needs to be running
 App is deployed on Red Hat Cloud [OpenShift](http://nodejs2-twitsearch.rhcloud.com) 
 
 ##To-Do
-Support for mobile
-Responsive web design
+- Support for mobile
+- Responsive web design
+- More stats

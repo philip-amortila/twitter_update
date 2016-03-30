@@ -15,7 +15,16 @@ var tweetsRouter = express.Router();
 
 tweetsRouter.route('/')
 	.get(function(req, res){
-		var url = 'mongodb://localhost:27017/twitterApp';
+		var url = '127.0.0.1:27017/nodejs2';
+		// if OPENSHIFT env variables are present, use the available connection info:
+		if(process.env.OPENSHIFT_MONGODB_DB_PASSWORD){
+			url = process.env.OPENSHIFT_MONGODB_DB_USERNAME + ":" +
+			process.env.OPENSHIFT_MONGODB_DB_PASSWORD + "@" +
+			process.env.OPENSHIFT_MONGODB_DB_HOST + ':' +
+			process.env.OPENSHIFT_MONGODB_DB_PORT + '/' +
+			process.env.OPENSHIFT_APP_NAME;
+		}
+        url = 'mongodb://'+url;
 		console.log("search req: " + req.query.text);
 		client.get('search/tweets', {q:req.query.text}, function(error, tweets, response1){
 

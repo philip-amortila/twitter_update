@@ -24,7 +24,6 @@ Replace your Twitter API keys in the following code block in tweetRoutes.js
 
 ##Usage
 
-In the same folder: 
 ```
 npm start
 ```

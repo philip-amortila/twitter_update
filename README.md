@@ -27,7 +27,7 @@ Replace your Twitter API keys in the following code block in tweetRoutes.js
 ```
 npm start
 ```
-And then point your browser at http://localhost:3000
+And then point your browser at http://localhost:3000 (mongod needs to be running in a separate terminal window)
 
 ## Tech Stack
 - node.js 
